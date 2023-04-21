@@ -1,0 +1,219 @@
+header {
+    /* background-image: url('Images/tempBackground.webp'); */
+    background-size: cover;
+    background-attachment:fixed;
+    background-position: center center;
+}
+
+#indexPage {
+  background-image: url('Images/WritingAtPiano.jpeg');
+}
+#aboutPage {
+  background-image: url('Images/WithProfessorsCropped.jpeg');
+}
+#musicPage {
+  background-image: url('Images/BlackAndWhite.jpeg');
+}
+#projectsPage {
+  background-image: url('Images/Mysterious_With_Hat.JPG');
+}
+#performancesPage {
+  background-image: url('Images/EnsemblePerformance.jpg');
+}
+
+#title-name {
+    padding-top: 12vw;
+    padding-bottom: 27vw;
+    font-family: 'Raleway', sans-serif;
+    color: white;
+    font-size:80px;
+}
+
+#title-name h1 {
+  margin-bottom: 0px;
+  padding-bottom: 50px;
+  font-size: 4vw;
+}
+
+#bootstrap-img {
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+
+#bootstrap-img:hover {
+    box-shadow: 5px 6px 6px 2px #e9ecef;
+    transform: scale(1.02);
+}
+
+#vscode-img {
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+
+#vscode-img:hover {
+    box-shadow: 5px 6px 6px 2px #e9ecef;
+    transform: scale(1.02);
+}
+
+.wrapper {
+    padding-bottom: 90px;
+}
+
+.divider {
+    position: relative;
+    margin-top: 90px;
+    height: 1px;
+}
+
+.div-transparent:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 5%;
+    right: 5%;
+    width: 90%;
+    height: 1px;
+    background-image: linear-gradient(to right, transparent, rgb(48, 49, 51), transparent);
+}
+
+.div-dot:after {
+    content: "";
+    position: absolute;
+    z-index: 1;
+    top: -9px;
+    left: calc(50% - 9px);
+    width: 18px;
+    height: 18px;
+    background-color: goldenrod;
+    border: 1px solid rgb(48, 49, 51);
+    border-radius: 50%;
+    box-shadow: inset 0 0 0 2px white,
+        0 0 0 4px white;
+}
+
+
+#mainNavigation a {
+    font-family: 'Cabin', sans-serif;
+    font-size:12px;
+    text-transform:uppercase;
+    letter-spacing:2px;
+    text-shadow:1px 1px 2px rgba(0,0,0,0.4);
+  }
+   
+  .dropdown-menu {
+    background:#03727d;
+  }
+  a.dropdown-toggle {
+    color:#dfdfdf !important
+  }
+  a.dropdown-item:hover {
+    color:#03727d !important
+  }
+  .nav-item a{
+    color:#dfdfdf;
+  }
+  .nav-item a:hover {
+    color:#fff
+  }
+  .nav-item{
+    min-width:12vw;
+  }
+
+#navbarNavDropdown {
+  padding-top: 75px;
+}
+
+.hidden {
+  opacity: 0;
+  transition: all 1.5s;
+}
+
+#fugly-theorem-spotify {
+  margin-bottom: 100px;
+}
+
+.show {
+  opacity: 1;
+}
+
+.section-title {
+  font-family: 'Oswald', sans-serif;
+  font-size: 4vw;
+}
+
+.section-title {
+  font-family: 'Oswald', sans-serif;
+  font-size: 4vw;
+}
+
+#performanceDescriptionLeft {
+  padding-left:7vw;
+  padding-right:3vw;
+}
+
+#performanceDescriptionRight {
+  padding-left:3vw;
+  padding-right:7vw;
+}
+
+.performanceNotes {
+  font-size:1.2vw;
+  font-weight: bold;
+  font-family: 'Lato', sans-serif
+}
+
+.listOfPerformers {
+  margin-top:1vw;
+  font-family: 'Raleway', sans-serif;
+  font-size:1.2vw;
+}
+
+#video {
+  padding-right:1vw;
+  height: 600px;
+}
+
+a {
+  text-decoration: none;
+}
+
+#initialIntro {
+  padding-top: 4vw;
+  padding-bottom: 4vw;
+}
+
+.about-me {
+  margin-top: 50px;
+  margin-bottom: 75px;
+}
+
+.list-of-works {
+  margin-top: 50px;
+  margin-bottom: 75px;
+}
+
+.list-of-works-title {
+  font-family: 'Oswald', sans-serif;
+  font-size: 4vw;
+  text-decoration-line: underline; 
+}
+
+.list-of-works-genre {
+  font-size:2vw;
+  font-weight: bold;
+  font-family: 'Lato', sans-serif
+}
+
+.main-page {
+  margin-top:50px;
+  margin-bottom:50px;
+}
+
+.card {
+  opacity: 1;
+  transition: opacity 0.3s ease;
+}
+
+.card:hover {
+  opacity: 0.8;
+}
