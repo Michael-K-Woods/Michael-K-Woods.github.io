@@ -1,5 +1,4 @@
 header {
-    /* background-image: url('Images/tempBackground.webp'); */
     background-size: cover;
     background-attachment:fixed;
     background-position: center center;
@@ -41,16 +40,6 @@ header {
 }
 
 #bootstrap-img:hover {
-    box-shadow: 5px 6px 6px 2px #e9ecef;
-    transform: scale(1.02);
-}
-
-#vscode-img {
-    transition: all 0.3s ease;
-    cursor: pointer;
-}
-
-#vscode-img:hover {
     box-shadow: 5px 6px 6px 2px #e9ecef;
     transform: scale(1.02);
 }
